@@ -50,7 +50,11 @@
       }
     </script>
     <style>
-      body {
+      html, body, #root {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
         background-color: #000;
         color: white;
         overflow-x: hidden;
@@ -70,6 +74,7 @@
         background: #e66d81;
       }
     </style>
+    <!-- Import Map: Explicitly use React 18 to avoid 19.x preview errors -->
     <script type="importmap">
 {
   "imports": {
